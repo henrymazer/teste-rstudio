@@ -8,6 +8,12 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+# Mulheres no mercado de trabalho
+
+- Mudanças nas profissões que elas ocupam
+- Avaliar essa diferença no tempo
+- Imagem que salvei do googgle keep da aula: [link pro keep](https://keep.google.com/u/0/#NOTE/11r1RVFeXechn6-WYsxqIV_Q9DTySIa2uRAtpyphZafE9_rGhx45SCr77OTm4kHE)
+
 
 ## R Markdown
 
