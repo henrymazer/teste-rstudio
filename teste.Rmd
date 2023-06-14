@@ -300,3 +300,53 @@ integra vários modelos de evidência
 descreva e documente as evidências
 conteúdo é rei
 
+gráficos na análise exploratória servem para:
+entender as propriedades dos dados
+encontrar padrões
+sugerir estratégias de modelagem dos dados
+depurar (melhorar) uma análise
+comunicar resultados
+
+características doa gráficos para análise exploratória:
+feitos rapidamente
+feitos em grande quantidade
+para entendimento particular/pessoal
+as preocupações estéticas ficam pra depois
+
+para uma dimensão/variável:
+sumário dos dados
+boxplots
+histogramas
+gráficos de densidade
+gráficos de barra
+
+sumário:
+valor mínimo
+máximo
+primeiro quartil
+média
+mediana
+terceiro quartil
+
+código:
+summary()
+
+boxplot()
+abline(variável = 12) ## o valor "aceitável" de algum parâmetro
+
+hist()
+rug() ##detalhe sob o histograma para as medidas individuais
+
+hist(variável, breaks = 100) ##diminuir a largura das barras do histograma
+abline(variável = 12) ## o valor "aceitável" de algum parâmetro
+
+barplot()
+
+## para duas dimensões/variáveis:
+gráficos de dispersão
+multiple/overlayed 1-D gráficos (Lattice/ggplot2)
+gráficos de dispersão suaves
+
+## mais de 2 dimensões:
+multiple/overlayed 2-D gráficos; coplots
+usar cores, tamanhos e formas para incluir mais dimensões
