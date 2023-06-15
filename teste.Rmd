@@ -344,9 +344,41 @@ barplot()
 
 ## para duas dimensões/variáveis:
 gráficos de dispersão
-multiple/overlayed 1-D gráficos (Lattice/ggplot2)
+multiple/overlayed 1-D gráficos (Lattice/ggplot2) por exemplo vários boxplots, gráficos de barras, dispersão
 gráficos de dispersão suaves
+
+código:
+with(pollution, plot(latitude, pm25, col=region))
+abline(h = 12, lwd = 2, lty = 2)
 
 ## mais de 2 dimensões:
 multiple/overlayed 2-D gráficos; coplots
 usar cores, tamanhos e formas para incluir mais dimensões
+
+clusterização hierarquica para muitas variáveis
+o quão próximos os grupos estão?
+como agrupamos as coisas?
+como visualizamos os grupos?
+como interpretamos o agrupamento?
+
+dendograma para vizualizar o agrupamento
+
+qual a distância? o que é perto?
+distância euclidiana
+similaridade de correlação (distância análoga ou correlação entre dois pontos)
+distância binária ou distância de manhattan
+para clusterizar em R primeiro calcula-se a distância de todos os pontos entre eles
+no dendograma podemos enxergar grupos de cluster. no exemplo do trabalho infantil podemos ter cluster de estados ou cidades para uma análise entre elas. quais características são iguais entre as cidades que podem caracterizar motivos do porque o trabalho infantil acontece
+também é possível calcular a distância entre os "centros de massa" de cada cluster
+
+também para muitas variáveis:
+k-means clusterização - definição anterior de quantos grupos queremos (diferente da cluesterização hierarquica que definimos depois)
+também é possível fazer mapas de calor das clusterizações
+
+hierarquica é deterministica e k-means não (pelo fato de você poder escolher quantos clusters)
+
+Análise de componentes principais (PCA) e decomposição de valor singular (SVD)
+queremos encontrar um grupo de variáveis que não são correlacionadas pra poder explicar a variação do nosso conjunto de dados (ou seja, quais são as variáveis que explicam ao máximo os nossos números)
+para isso fazer uma matriz com todos os dados, e um mapa de calor dessa matriz pra tentar agrupar algum grupo semelhante
+não é possível usar essas técnicas com valores faltantes, temos que imputar dados
+alguns outros modelos que fazem a mesma coisa: análise fatorial, análise independente de componentes, análise semântica latente
