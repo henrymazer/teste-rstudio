@@ -382,3 +382,9 @@ queremos encontrar um grupo de variáveis que não são correlacionadas pra pode
 para isso fazer uma matriz com todos os dados, e um mapa de calor dessa matriz pra tentar agrupar algum grupo semelhante
 não é possível usar essas técnicas com valores faltantes, temos que imputar dados
 alguns outros modelos que fazem a mesma coisa: análise fatorial, análise independente de componentes, análise semântica latente
+importante essa análise para perceber qual, ou quais, variáveis tem maior influência nos nossos números. talvez não seja necessário utilizar para diminuir as variáveis
+
+##dicas do vídeo de análise
+- se os dados são muito discrepantes, muitos outliers, olhar os dados na forma de logaritmos
+- olhar se os dados variam no ano, nos meses, nas semanas
+- 
