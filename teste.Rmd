@@ -385,6 +385,17 @@ alguns outros modelos que fazem a mesma coisa: análise fatorial, análise indep
 importante essa análise para perceber qual, ou quais, variáveis tem maior influência nos nossos números. talvez não seja necessário utilizar para diminuir as variáveis
 
 ##dicas do vídeo de análise
-- se os dados são muito discrepantes, muitos outliers, olhar os dados na forma de logaritmos
+- se os dados são muito discrepantes, muitos outliers, olhar os dados na forma de logaritmos e também adicionar o número em todos os dados pra não ter que fazer log de zero
 - olhar se os dados variam no ano, nos meses, nas semanas
-- 
+
+##passos de uma análise
+- definir a pergunta
+- definir os dados a serem utilizados
+- -obter os dados
+- limpar os dados
+- fazer a análise exploratória dos dados
+- usar modelos de predição/modelagem
+- interpretar os resultados
+- desafira os dados/desconfiar dos dados/imaginar quais variáveis podem modificar os dados/refazer os cálculo usando essas novas provocações
+- sintetizar e escrever os resultados
+ 
